@@ -1,5 +1,3 @@
----
-
 # PKGalleryMarquee - Image Marquee Carousel Component
 
 `PKGalleryMarquee` is a lightweight image marquee carousel built with **JavaScript, jQuery, and Bootstrap 5**. It supports clickable images, pause-on-hover, custom tooltip text, and fully configurable size and speed.
