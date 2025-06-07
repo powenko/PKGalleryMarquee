@@ -1,0 +1,33 @@
+.pk-marquee-container {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.pk-marquee-track {
+  display: flex;
+  animation: pk-scroll linear infinite;
+  animation-play-state: running;
+}
+
+.pk-marquee-item {
+  flex: 0 0 auto;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.pk-marquee-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 動畫樣板，實際速度用 JS 設定 */
+@keyframes pk-scroll {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
