@@ -92,7 +92,7 @@ Each item in the array should be an object with the following properties:
 
 MIT License — free for personal and commercial use.
 
-```
+
 
 ---
 
